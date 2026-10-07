@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 50" width="250" height="50">
+    <defs>
+        <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2563eb" />
+            <stop offset="100%" stop-color="#1d4ed8" />
+        </linearGradient>
+    </defs>
+    <!-- Microphone Icon -->
+    <g transform="translate(10, 5) scale(0.4)">
+        <path fill="url(#primaryGrad)" d="M50,0 C33.4,0 20,13.4 20,30 L20,60 C20,76.6 33.4,90 50,90 C66.6,90 80,76.6 80,60 L80,30 C80,13.4 66.6,0 50,0 Z"/>
+        <path fill="url(#primaryGrad)" d="M10,50 L10,60 C10,80 25.1,96.6 44,99.5 L44,115 L30,115 L30,125 L70,125 L70,115 L56,115 L56,99.5 C74.9,96.6 90,80 90,60 L90,50 L80,50 L80,60 C80,76.5 66.5,90 50,90 C33.5,90 20,76.5 20,60 L20,50 L10,50 Z"/>
+    </g>
+    <!-- Text -->
+    <text x="65" y="35" font-family="'Inter', sans-serif, Arial" font-size="28" font-weight="800" fill="#2563eb" letter-spacing="-0.5">Speak<tspan fill="#0f172a">Academy</tspan></text>
+</svg>

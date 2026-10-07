@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light">
+<head>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Public Speaking & Debate Academy - Build Confidence. Speak Clearly. Debate Powerfully.">
+    <title>Home | SpeakAcademy</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm" id="mainNavbar">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center fw-bold fs-5 fs-md-4" href="index.html" dir="ltr">
+            <div class="me-2 d-flex align-items-center justify-content-center text-white" style="width: 32px; height: 32px; border-radius: 8px; background: linear-gradient(135deg, #3b82f6, #a855f7); margin-top:-4px;">
+    <i class="bi bi-mic-fill" style="font-size: 1.1rem;"></i>
+</div>
+            <span class="text-primary" style="letter-spacing: -0.5px;">Speak</span><span class="text-body" style="letter-spacing: -0.5px;">Academy</span>
+        </a>
+        
+        <div class="d-flex align-items-center gap-1 d-lg-none">
+            <div class="d-flex align-items-center gap-1">
+                <button class="nav-icon-btn fw-medium theme-toggle-btn" title="Toggle Theme">
+                    <i class="bi bi-moon-stars"></i>
+                </button>
+                <button class="nav-icon-btn fw-medium text-decoration-none rtl-toggle-btn" title="Toggle RTL">
+                    RTL
+                </button>
+            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="desktopMenu">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium gap-2">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                    <ul class="dropdown-menu border-0 shadow-sm">
+                        <li><a class="dropdown-item" href="index.html">Home 1 (Main)</a></li>
+                        <li><a class="dropdown-item" href="index-2.html">Home 2 (Competition)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <button class="nav-icon-btn fw-medium theme-toggle-btn" title="Toggle Theme">
+                    <i class="bi bi-moon-stars"></i>
+                </button>
+                <button class="nav-icon-btn fw-medium text-decoration-none rtl-toggle-btn" title="Toggle RTL">
+                    RTL
+                </button>
+                <a href="contact.html" class="btn btn-primary rounded-pill px-4 fw-medium" style="white-space:nowrap;">Book Trial</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Mobile Offcanvas Menu -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title d-flex align-items-center fw-bold fs-4" id="mobileMenuLabel" dir="ltr">
+            <div class="me-2 d-flex align-items-center justify-content-center text-white" style="width: 32px; height: 32px; border-radius: 8px; background: linear-gradient(135deg, #3b82f6, #a855f7); margin-top:-4px;">
+    <i class="bi bi-mic-fill" style="font-size: 1.1rem;"></i>
+</div>
+            <span class="text-primary" style="letter-spacing: -0.5px;">Speak</span><span class="text-body" style="letter-spacing: -0.5px;">Academy</span>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column">
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item dropdown mb-2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Home</a>
+                <ul class="dropdown-menu border-0">
+                    <li><a class="dropdown-item" href="index.html">Home 1 (Main)</a></li>
+                    <li><a class="dropdown-item" href="index-2.html">Home 2 (Competition)</a></li>
+                </ul>
+            </li>
+            <li class="nav-item mb-2"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item mb-2"><a class="nav-link" href="programs.html">Programs</a></li>
+            <li class="nav-item mb-2"><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <li class="nav-item mb-2"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item mb-2"><a class="nav-link" href="contact.html">Contact</a></li>
+            
+        </ul>
+        <div class="mt-auto d-flex flex-column gap-3">
+            <a href="contact.html" class="btn btn-primary rounded-pill w-100 mt-2">Book a Trial</a>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- Main Content -->
+    <main class="flex-grow-1">
+        
+<!-- Hero -->
+<section class="hero-section">
+    <div class="container text-center text-md-start">
+        <div class="row align-items-center">
+            <div class="col-lg-6 reveal active">
+                <span class="badge bg-primary rounded-pill px-3 py-2 mb-3">Empowering The Next Generation</span>
+                <h1 class="display-3 fw-bold mb-4 text-white">Build Confidence<br>Speak Clearly<br>Debate Powerfully</h1>
+                <p class="lead mb-4 text-white-50">Develop world-class public speaking, debate, and leadership skills Designed for students who want to stand out and succeed.</p>
+                <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-md-start">
+                    <a href="contact.html" class="btn btn-primary btn-lg rounded-pill px-4">Book a Trial</a>
+                    <a href="programs.html" class="btn btn-outline-light btn-lg rounded-pill px-4">Explore Programs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trusted / Highlight -->
+<section class="py-5 text-center bg-body-tertiary">
+    <div class="container reveal">
+        <h6 class="text-uppercase fw-bold mb-4 text-body-emphasis" style="letter-spacing: 0.5px;">Trusted by over 1,500+ parents and students worldwide</h6>
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-4 gap-md-5 fw-medium text-body-secondary">
+            <span class="fs-5">Ivy League Prep</span>
+            <span class="fs-5">National Debate Finals</span>
+            <span class="fs-5">Model UN</span>
+            <span class="fs-5">Global Orators</span>
+        </div>
+    </div>
+</section>
+
+<!-- Programs Overview -->
+<section class="section-padding">
+    <div class="container">
+        <div class="text-center mb-5 reveal">
+            <h2 class="section-title h1">Academy Programs</h2>
+            <p class="text-muted lead">Transformative courses for every age and skill level.</p>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4 reveal">
+                <div class="card academy-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/public_speaking_core.jpg" alt="Public Speaking">
+                    </div>
+                    <div class="card-body p-4 text-center">
+                        <h4 class="card-title fw-bold">Public Speaking</h4>
+                        <p class="text-muted small mb-3">Ages 8-18</p>
+                        <p class="card-text">Overcome stage fright, learn to structure ideas, and deliver speeches with impact and confidence.</p>
+                        <a href="program-details.html" class="btn btn-outline-primary rounded-pill w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-4 reveal">
+                <div class="card academy-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/competitive_debate.jpg" alt="Debate">
+                    </div>
+                    <div class="card-body p-4 text-center">
+                        <h4 class="card-title fw-bold">Competitive Debate</h4>
+                        <p class="text-muted small mb-3">Ages 12-18</p>
+                        <p class="card-text">Master argumentation, active listening, and logical reasoning to win competitive debate tournaments.</p>
+                        <a href="program-details.html" class="btn btn-outline-primary rounded-pill w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-4 reveal">
+                <div class="card academy-card">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/leadership.jpg" alt="Leadership">
+                    </div>
+                    <div class="card-body p-4 text-center">
+                        <h4 class="card-title fw-bold">Leadership Communication</h4>
+                        <p class="text-muted small mb-3">College & Teens</p>
+                        <p class="card-text">Develop executive presence, interview skills, and the ability to lead and persuade teams effectively.</p>
+                        <a href="program-details.html" class="btn btn-outline-primary rounded-pill w-100">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="programs.html" class="btn btn-primary rounded-pill px-4">View All Courses</a>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="section-padding bg-body-tertiary">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6 reveal">
+                <h2 class="section-title h1">Skills Students Will Develop</h2>
+                <p class="text-muted lead mb-4">Our curriculum goes beyond talking. We build holistic communicators capable of navigating complex conversations and leading others.</p>
+                
+                <div class="d-flex align-items-start mb-4">
+                    <div class="icon-box bg-primary text-white me-3 flex-shrink-0">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold">Unshakeable Confidence</h5>
+                        <p class="text-muted">Eliminate stage fright and embrace the spotlight with proven anxiety-management techniques.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                    <div class="icon-box bg-primary text-white me-3 flex-shrink-0">
+                        <i class="bi bi-diagram-3-fill"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold">Critical Thinking</h5>
+                        <p class="text-muted">Analyze complex issues, construct logical arguments, and dissect opposing viewpoints on the spot.</p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start mb-4">
+                    <div class="icon-box bg-primary text-white me-3 flex-shrink-0">
+                        <i class="bi bi-mic-fill"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold">Vocal & Body Mastery</h5>
+                        <p class="text-muted">Command a room using voice modulation, intentional pacing, and powerful body language.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 reveal">
+                <img src="assets/images/critical_thinking.jpg" class="img-fluid rounded-4 shadow-lg" alt="Skills Development">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="achievement-section reveal bg-smoke-purple" style="background-color: transparent;">
+    <div class="container">
+        <div class="row g-4 justify-content-center">
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-number" data-target="1500">0</div>
+                    <div class="text-uppercase fw-medium opacity-75">Students Trained</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-number" data-target="50">0</div>
+                    <div class="text-uppercase fw-medium opacity-75">Competition Wins</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-number" data-target="100">0</div>
+                    <div class="text-uppercase fw-medium opacity-75">Workshops Hosted</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="counter-box">
+                    <div class="counter-number" data-target="30">0</div>
+                    <div class="text-uppercase fw-medium opacity-75">Expert Mentors</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section-padding">
+    <div class="container">
+        <div class="text-center mb-5 reveal">
+            <h2 class="section-title h1">What Parents & Students Say</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4 reveal">
+                <div class="card h-100 border-0 shadow-sm bg-body-tertiary">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic mb-4">"The transformation in my son has been incredible. He used to be terrified of speaking in class, and now he is the captain of his school's debate team!"</p>
+                        <div class="d-flex align-items-center mt-auto">
+                            <img src="assets/images/Sarah Jenkins.jpg" class="rounded-circle me-3 shadow-sm" width="50" height="50" alt="Sarah Jenkins" style="object-fit:cover">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Sarah Jenkins</h6>
+                                <small class="text-muted">Parent</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 reveal">
+                <div class="card h-100 border-0 shadow-sm bg-body-tertiary">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic mb-4">"The coaches are phenomenal. They don't just teach you how to speak; they teach you how to think quickly and construct unbeatable arguments."</p>
+                        <div class="d-flex align-items-center mt-auto">
+                            <img src="assets/images/David Rossi.jpg" class="rounded-circle me-3 shadow-sm" width="50" height="50" alt="David Rossi" style="object-fit:cover">
+                            <div>
+                                <h6 class="mb-0 fw-bold">David Rossi</h6>
+                                <small class="text-muted">High School Debater</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 reveal">
+                <div class="card h-100 border-0 shadow-sm bg-body-tertiary">
+                    <div class="card-body p-4 d-flex flex-column">
+                        <div class="text-warning mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="fst-italic mb-4">"SpeakAcademy gave me the confidence to ace my university interviews. The critical thinking skills I learned are invaluable."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="assets/images/coaches/coach-female.jpg" class="rounded-circle me-3 shadow-sm" width="50" height="50" alt="Amanda Lee" style="object-fit:cover">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Amanda Lee</h6>
+                                <small class="text-muted">College Student</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA -->
+<section class="section-padding bg-smoke-purple text-center">
+    <div class="container reveal">
+        <h2 class="display-5 fw-bold mb-4">Ready to Unlock Your Potential?</h2>
+        <p class="lead mb-5 opacity-75">Join thousands of students who have transformed their communication skills.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg rounded-pill px-5 fw-bold shadow">Book Your Trial Class Today</a>
+    </div>
+</section>
+
+    </main>
+    
+    
+<!-- Footer -->
+<footer class="footer pt-5 pb-4 mt-auto">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+                <a class="navbar-brand d-flex align-items-center fw-bold fs-4 mb-3" href="index.html" dir="ltr">
+                    <div class="me-2 d-flex align-items-center justify-content-center text-white" style="width: 32px; height: 32px; border-radius: 8px; background: linear-gradient(135deg, #3b82f6, #a855f7); margin-top:-4px;">
+    <i class="bi bi-mic-fill" style="font-size: 1.1rem;"></i>
+</div>
+                    <span class="text-primary" style="letter-spacing: -0.5px;">Speak</span><span class="text-body" style="letter-spacing: -0.5px;">Academy</span>
+                </a>
+                <p class="text-muted mb-4">Empowering students with confidence, leadership, and critical thinking skills through world-class public speaking and debate coaching.</p>
+                <div class="d-flex gap-3">
+                    <a href="https://facebook.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" class="btn btn-outline-secondary btn-sm rounded-circle"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h6 class="fw-bold mb-3">Programs</h6>
+                <ul class="list-unstyled footer-links">
+                    <li class="mb-2"><a href="programs.html" class="text-decoration-none text-muted">Public Speaking Foundations</a></li>
+                    <li class="mb-2"><a href="programs.html" class="text-decoration-none text-muted">Debate Fundamentals</a></li>
+                    <li class="mb-2"><a href="programs.html" class="text-decoration-none text-muted">Competitive Debate Squad</a></li>
+                    <li class="mb-2"><a href="programs.html" class="text-decoration-none text-muted">Leadership Communication</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <h6 class="fw-bold mb-3">Resources</h6>
+                <ul class="list-unstyled footer-links">
+                    <li class="mb-2"><a href="index.html" class="text-decoration-none text-muted">Home</a></li>
+                    <li class="mb-2"><a href="about.html" class="text-decoration-none text-muted">About</a></li>
+                    <li class="mb-2"><a href="pricing.html" class="text-decoration-none text-muted">Pricing</a></li>
+                    <li class="mb-2"><a href="blog.html" class="text-decoration-none text-muted">Blog</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-decoration-none text-muted">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h6 class="fw-bold mb-3">Subscribe to Newsletter</h6>
+                <p class="text-muted small">Get the latest tips on communication and debate.</p>
+                <form class="d-flex mb-3" id="subscribeForm">
+                    <input type="email" class="form-control rounded-start-pill border-end-0" placeholder="Email address" required>
+                    <button class="btn btn-primary rounded-end-pill px-3" type="submit"><i class="bi bi-send"></i></button>
+                </form>
+                <ul class="list-unstyled text-muted small">
+                    <li class="mb-1"><i class="bi bi-geo-alt me-2"></i> 123 Academy St, London Hub</li>
+                    <li class="mb-1"><i class="bi bi-envelope me-2"></i> hello@speakacademy.com</li>
+                    <li><i class="bi bi-telephone me-2"></i> +1 (555) 123-4567</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="my-4 text-muted">
+        <div class="row align-items-center small text-muted">
+            <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+                &copy; 2026 SpeakAcademy. All rights reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <span class="text-decoration-none text-muted me-3">Privacy Policy</span>
+                <span class="text-decoration-none text-muted">Terms of Service</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="btn btn-primary rounded-circle shadow" id="backToTop" title="Go to top">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
