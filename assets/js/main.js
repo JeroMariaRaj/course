@@ -1,4 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Real-time Phone Validation (Prevent typing letters)
+    const phoneFields = document.querySelectorAll('.phone-validation');
+    phoneFields.forEach(field => {
+        field.addEventListener('input', function() {
+            // Strip out any characters that aren't digits, spaces, +, -, (, )
+            this.value = this.value.replace(/[^\d\s\+\-\(\)]/g, '');
+        });
+    });
+
+    // Real-time Name Validation (Prevent typing numbers)
+    const nameFields = document.querySelectorAll('.name-validation');
+    nameFields.forEach(field => {
+        field.addEventListener('input', function() {
+            // Strip out any characters that aren't letters, spaces, hyphens, or apostrophes
+            this.value = this.value.replace(/[^A-Za-z\s\-']/g, '');
+        });
+    });
+
     // Auto-Active Navbar Links
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');

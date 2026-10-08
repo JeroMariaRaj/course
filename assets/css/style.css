@@ -386,3 +386,16 @@ html[dir="rtl"] #backToTop {
     padding-left: 1rem;
     background-color: transparent;
 }
+
+/* Dropdown Theme Colors */
+.dropdown-item.active, .dropdown-item:active {
+    background-color: var(--bs-primary) !important;
+    color: #fff !important;
+}
+
+/* RTL Dropdown Alignment */
+html[dir="rtl"] .navbar-nav .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+    text-align: right;
+}
